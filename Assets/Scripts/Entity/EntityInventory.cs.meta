@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: de2dc257ffeed1a4ba12553460196f0b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - boneRight: {instanceID: 0}
+  - boneLeft: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - weaponBoxPrefab: {fileID: 4406318497540929487, guid: e7a81ceb77bc8f748a538aac5583ef38,
+      type: 3}
+  - equippedItem: {instanceID: 0}
+  - meshLeftHand: {instanceID: 0}
+  - meshRightHand: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

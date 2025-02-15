@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8beea8a3250c606428e991a176c4efd3, type: 3}
+  m_Name: DestructiblePillar0
+  m_EditorClassIdentifier: 
+  cellSize: {x: 1, y: 2}
+  meshes:
+  - list: []
+  - list:
+    - {fileID: 7353759843393201499, guid: d7c2f9e2e9fc42645bb9e7066b0d5db1, type: 3}
+    - {fileID: 7353759843393201499, guid: c4ce25cb3eaccf84f90e6c1974412c98, type: 3}
+    - {fileID: 7353759843393201499, guid: 15527bd4d3bd1d843951ed76a84ada74, type: 3}
+    - {fileID: 7353759843393201499, guid: 88339fe452f177842991afcdbe06b12d, type: 3}
+  - list:
+    - {fileID: 7353759843393201499, guid: a5d92303bfeec1f4ebb17427a88283f0, type: 3}
+  - list:
+    - {fileID: 7353759843393201499, guid: d3f96e5f17106e44a9209482967ae647, type: 3}
+  mesh1RandomRotation: 0
+  addedRotation: 1

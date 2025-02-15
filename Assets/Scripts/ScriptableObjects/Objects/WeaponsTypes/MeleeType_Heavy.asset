@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56aee6b464532df47bf8cf9f0b925246, type: 3}
+  m_Name: MeleeType_Heavy
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeWeaponType
+  name: Claymore
+  animationPrefix: Sword0_
+  attackAir:
+    animation: Air
+    damage: 1
+    duration: 0.5
+    range: 6
+    dashForce:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: -1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dashDuration: 0.5
+    dashDelay: 0
+    hitboxReal: 0
+    hitboxDelay: 0.2
+    hitboxOffset: {x: 0, y: 0, z: 1}
+    hitboxSize: {x: 1, y: 1, z: 1}
+    screenShakeForce: 3
+    screenShakeDuration: 0.2
+    fireDamage: 0
+    vfx:
+      prefab: {fileID: 0}
+      delay: 0
+  stealthAttackRange: 1
+  stealthAttackDuration: 1
+  stealthAttackDamage: 100
+  stealthAttackDamageDelay: 0.5
+  stealthAttackVfx:
+    prefab: {fileID: 412269119905124473, guid: 5b3d6f55400ea3c49b81358fecda0206, type: 3}
+    delay: 0.5
+  stealthAttackSelfAnimation: Sword0_1
+  stealthAttackTargetAnimation: Sword0_1
+  stealthAttackTargetAnimationDelay: 0.3
+  stealthAttackSound:
+    sound: FireballFlame0
+    volume: 1
+    randomPitch: 0.1
+  stealthAttackSoundDelay: 0.5
+  comboBreakAfter: 0.5
+  comboBreakPenalty: 0
+  comboLight:
+    attack:
+      animation: 0
+      damage: 10
+      duration: 0.4
+      range: 4
+      dashForce:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: -1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      dashDuration: 0.3
+      dashDelay: 0.3
+      hitboxReal: 1
+      hitboxDelay: 0.4
+      hitboxOffset: {x: 0, y: 0, z: 2}
+      hitboxSize: {x: 3, y: 3, z: 3}
+      screenShakeForce: 10
+      screenShakeDuration: 0.2
+      fireDamage: 0
+      vfx:
+        prefab: {fileID: 0}
+        delay: 0
+    nextLight:
+      rid: 6302055688129216515
+    nextHeavy:
+      rid: -2
+  comboHeavy:
+    attack:
+      animation: 0
+      damage: 100
+      duration: 0.5
+      range: 2
+      dashForce:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -1
+          outSlope: -1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      dashDuration: 0.3
+      dashDelay: 0.1
+      hitboxReal: 1
+      hitboxDelay: 0
+      hitboxOffset: {x: 0, y: 0, z: 2}
+      hitboxSize: {x: 2, y: 2, z: 5}
+      screenShakeForce: 100
+      screenShakeDuration: 0.2
+      fireDamage: 0
+      vfx:
+        prefab: {fileID: 0}
+        delay: 0
+    nextLight:
+      rid: -2
+    nextHeavy:
+      rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6302055688129216515
+      type: {class: AttackTree, ns: , asm: Assembly-CSharp}
+      data:
+        attack:
+          animation: 1
+          damage: 12
+          duration: 0.4
+          range: 4
+          dashForce:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: -1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          dashDuration: 0.3
+          dashDelay: 0.3
+          hitboxReal: 1
+          hitboxDelay: 0.4
+          hitboxOffset: {x: 0, y: 0, z: 1}
+          hitboxSize: {x: 3, y: 3, z: 3}
+          screenShakeForce: 3
+          screenShakeDuration: 0.2
+          fireDamage: 0
+          vfx:
+            prefab: {fileID: 0}
+            delay: 0
+        nextLight:
+          rid: 6302055688129216516
+        nextHeavy:
+          rid: -2
+    - rid: 6302055688129216516
+      type: {class: AttackTree, ns: , asm: Assembly-CSharp}
+      data:
+        attack:
+          animation: 2
+          damage: 15
+          duration: 0.7
+          range: 4
+          dashForce:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.3
+              value: -0.2
+              inSlope: 0.33276477
+              outSlope: 0.33276477
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.6
+              value: 1
+              inSlope: -0.99999994
+              outSlope: -0.99999994
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1
+              outSlope: -1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          dashDuration: 1.1
+          dashDelay: 0
+          hitboxReal: 1
+          hitboxDelay: 0.7
+          hitboxOffset: {x: 0, y: 0, z: 2}
+          hitboxSize: {x: 2, y: 3, z: 4}
+          screenShakeForce: 3
+          screenShakeDuration: 0.2
+          fireDamage: 0
+          vfx:
+            prefab: {fileID: 0}
+            delay: 0
+        nextLight:
+          rid: -2
+        nextHeavy:
+          rid: -2

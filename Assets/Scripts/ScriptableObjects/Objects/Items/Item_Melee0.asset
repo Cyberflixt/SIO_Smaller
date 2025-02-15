@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dea8ae6a975bf54a86b7105df1eeea3, type: 3}
+  m_Name: Item_Melee0
+  m_EditorClassIdentifier: 
+  name: Cleaver
+  rarity: 1
+  category: 0
+  thumbnail: {fileID: 21300000, guid: ac90a24dbc88d6f4ea10172b2099017e, type: 3}
+  meshGroup: {fileID: 7888419053541900575, guid: 2f8c1feaf2afd9f4aa5a1044039132a0,
+    type: 3}
+  meshLeftHand: {fileID: 0}
+  meshRightHand: {fileID: 7888419053541900575, guid: 2f8c1feaf2afd9f4aa5a1044039132a0,
+    type: 3}
+  price: 100
+  holdingAnimation: Sword0_Hold
+  damageFactor: 1
+  speedFactor: 1
+  dashFactor: 1
+  vfxCombo:
+  - prefab: {fileID: 8811231255383393048, guid: b79629f745bbda1478ce55a9e04a0e9d,
+      type: 3}
+    delay: 0.3
+  - prefab: {fileID: 8811231255383393048, guid: b79629f745bbda1478ce55a9e04a0e9d,
+      type: 3}
+    delay: 0.3
+  - prefab: {fileID: 8811231255383393048, guid: b79629f745bbda1478ce55a9e04a0e9d,
+      type: 3}
+    delay: 0.6
+  vfxParry: {fileID: 412269119905124473, guid: 16d5bfb770917494c9fe813c353ceadd, type: 3}
+  type: {fileID: 11400000, guid: 5de152db612eef046b857fb8abc4f970, type: 2}

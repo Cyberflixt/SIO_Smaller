@@ -1,0 +1,3 @@
+[submodule "SIO"]
+	path = SIO
+	url = https://github.com/Cyberflixt/SIO.git

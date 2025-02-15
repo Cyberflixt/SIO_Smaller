@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dea8ae6a975bf54a86b7105df1eeea3, type: 3}
+  m_Name: Item_Melee1
+  m_EditorClassIdentifier: 
+  name: Unnamed item
+  rarity: 0.75
+  category: 0
+  thumbnail: {fileID: 21300000, guid: b24091039a6278d46bffa7d9fa35a63a, type: 3}
+  meshGroup: {fileID: 6971585719758775781, guid: 89a1e18e63287a949beb2389816d5168,
+    type: 3}
+  meshLeftHand: {fileID: 0}
+  meshRightHand: {fileID: 6971585719758775781, guid: 89a1e18e63287a949beb2389816d5168,
+    type: 3}
+  price: 100
+  holdingAnimation: Sword1_Hold
+  damageFactor: 1
+  speedFactor: 1
+  dashFactor: 1
+  vfxCombo: []
+  vfxParry: {fileID: 412269119905124473, guid: 16d5bfb770917494c9fe813c353ceadd, type: 3}
+  type: {fileID: 11400000, guid: cb9680a7f1d2c8940b30ec8369a6b8af, type: 2}

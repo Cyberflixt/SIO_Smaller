@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8beea8a3250c606428e991a176c4efd3, type: 3}
+  m_Name: DestructibleWall0
+  m_EditorClassIdentifier: 
+  cellSize: {x: 1, y: 1, z: 0.4}
+  meshes:
+  - list: []
+  - list:
+    - {fileID: 4727872247440652120, guid: 78bc202eb438cfb499284439f5068d70, type: 3}
+    - {fileID: 4727872247440652120, guid: 7ec07ae8ce20bd547b99139791ea8825, type: 3}
+    - {fileID: 4727872247440652120, guid: 59a46e75c4d37fc4f973a9b24205c373, type: 3}
+    - {fileID: 4727872247440652120, guid: 6d9c03dbf54abb748af1960a5e51d89c, type: 3}
+  - list:
+    - {fileID: 4727872247440652120, guid: 24f77dd5d52b37846a1e3fa46f8f946f, type: 3}
+    - {fileID: 4727872247440652120, guid: 606656df8e3e25a41ad383b96cb28ff5, type: 3}
+  - list:
+    - {fileID: 4727872247440652120, guid: 0f1cc27dba7b6e0438e113a4f4c8c9d3, type: 3}
+  - list:
+    - {fileID: 4727872247440652120, guid: 411f7013b39bee8418b7431d04d2788c, type: 3}
+  - list:
+    - {fileID: 4727872247440652120, guid: 47fe6ab065d37024e9c69cefd739776f, type: 3}
+  - list:
+    - {fileID: 4727872247440652120, guid: 1fa0c11dbab5f724a87ef8042d0c1fc2, type: 3}
+  mesh1RandomRotation: 0
+  addedRotation: 0
